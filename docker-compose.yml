@@ -1,0 +1,8 @@
+services:
+  laravel-admin-docs-cn: 
+    image: ghcr.io/yingchaoorg/local_docs-laravel-admin-docs-cn:main
+    # image: ghcr.libcuda.so/yingchaoorg/local_docs-laravel-admin-docs-cn:main
+    container_name: local_docs-laravel-admin-docs-cn        
+    restart: always
+    ports:
+      - 34802:80
