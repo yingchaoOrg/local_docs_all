@@ -1,4 +1,11 @@
 services:
+  vxe-table-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
+    # image: ghcr.libcuda.so/yingchaoorg/local_docs-vxe-table-docs:main
+    container_name: local_docs-vxe-table-docs       
+    restart: always
+    ports:
+      - 34800:80
   laravel-admin-docs-cn: 
     image: ghcr.io/yingchaoorg/local_docs-laravel-admin-docs-cn:main
     # image: ghcr.libcuda.so/yingchaoorg/local_docs-laravel-admin-docs-cn:main
@@ -13,3 +20,6 @@ services:
     restart: always
     ports:
       - 34801:80
+
+
+
