@@ -6,3 +6,10 @@ services:
     restart: always
     ports:
       - 34802:80
+  local_docs_hplus: 
+    image: ghcr.io/yingchaoorg/local_docs_hplus-wiki:master
+    # image: ghcr.libcuda.so/yingchaoorg/local_docs_hplus-wiki:master
+    container_name: local_docs-local_docs_hplus        
+    restart: always
+    ports:
+      - 34801:80
