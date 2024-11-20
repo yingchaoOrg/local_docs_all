@@ -1,6 +1,6 @@
 # local_docs_all
 
-文档本地部署的所有文档集合
+> 文档本地部署的所有文档集合
 
 ## 列表
 * [vxe-table-docs](https://vxe-table-docs.docs.yingchao.fun) - 34800
@@ -20,3 +20,14 @@ docker tag ghcr.libcuda.so/yingchaoorg/local_docs-laravel-admin-docs-cn:main ghc
 
 ```
 
+
+### Tool
+
+```bash
+
+i5ting_toc -v
+
+
+
+
+```

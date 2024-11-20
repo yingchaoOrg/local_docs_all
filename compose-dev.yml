@@ -1,0 +1,10 @@
+services:
+  all: 
+    build: .
+    image: ghcr.io/yingchaoorg/local_docs-all
+    container_name: local_docs-all
+    volumes:
+      - .:/home/node/www
+    restart: always
+    ports:
+      - 34899:80

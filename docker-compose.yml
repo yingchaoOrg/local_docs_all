@@ -1,11 +1,4 @@
 services:
-  all: 
-    build: .
-    image: ghcr.io/yingchaoorg/local_docs-all
-    container_name: local_docs-all
-    restart: always
-    ports:
-      - 34899:80
   vxe-table-docs: 
     image: ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
     # image: ghcr.libcuda.so/yingchaoorg/local_docs-vxe-table-docs:main
@@ -34,7 +27,7 @@ services:
     ports:
       - 34803:80
   local_docs-hyperf-docs: 
-    image: hcr.io/yingchaoorg/local_docs-hyperf:master
+    image: ghcr.io/yingchaoorg/local_docs-hyperf:master
     container_name: local_docs-hyperf-docs
     restart: always
     ports:
