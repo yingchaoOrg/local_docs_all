@@ -1,31 +1,44 @@
 services:
+  all: 
+    build: .
+    image: ghcr.io/yingchaoorg/local_docs-all
+    container_name: local_docs-all
+    restart: always
+    ports:
+      - 34899:80
   vxe-table-docs: 
     image: ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
     # image: ghcr.libcuda.so/yingchaoorg/local_docs-vxe-table-docs:main
-    container_name: local_docs-vxe-table-docs 
+    container_name: local_docs-vxe-table-docs
     restart: always
     ports:
       - 34800:80
-  laravel-admin-docs-cn: 
-    image: ghcr.io/yingchaoorg/local_docs-laravel-admin-docs-cn:main
-    # image: ghcr.libcuda.so/yingchaoorg/local_docs-laravel-admin-docs-cn:main
-    container_name: local_docs-laravel-admin-docs-cn        
-    restart: always
-    ports:
-      - 34802:80
   local_docs_hplus: 
     image: ghcr.io/yingchaoorg/local_docs_hplus-wiki:master
     # image: ghcr.libcuda.so/yingchaoorg/local_docs_hplus-wiki:master
-    container_name: local_docs-local_docs_hplus        
+    container_name: local_docs-local_docs_hplus
     restart: always
     ports:
       - 34801:80
+  laravel-admin-docs-cn: 
+    image: ghcr.io/yingchaoorg/local_docs-laravel-admin-docs-cn:main
+    # image: ghcr.libcuda.so/yingchaoorg/local_docs-laravel-admin-docs-cn:main
+    container_name: local_docs-laravel-admin-docs-cn
+    restart: always
+    ports:
+      - 34802:80
   local_docs-dcat-docs: 
     image: ghcr.io/yingchaoorg/local_docs-dcat-docs:master
-    container_name: local_docs-dcat-docs      
+    container_name: local_docs-dcat-docs
     restart: always
     ports:
       - 34803:80
+  local_docs-hyperf-docs: 
+    image: hcr.io/yingchaoorg/local_docs-hyperf:master
+    container_name: local_docs-hyperf-docs
+    restart: always
+    ports:
+      - 34805:80
 
 
 

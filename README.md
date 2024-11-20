@@ -3,9 +3,10 @@
 文档本地部署的所有文档集合
 
 ## 列表
-
-* [laravel-admin-docs-cn](http://laravel-admin-docs-cn.docs.yingchao.fun) - 34802
-* [dcat-admin-docs](http://dcat-admin-docs.docs.yingchao.fun) - 34803
+* [vxe-table-docs](https://vxe-table-docs.docs.yingchao.fun) - 34800
+* [hplus-wiki](https://hplus-wiki.docs.yingchao.fun) - 34801
+* [laravel-admin-docs-cn](https://laravel-admin-docs-cn.docs.yingchao.fun) - 34802
+* [dcat-admin-docs](https://dcat-admin-docs.docs.yingchao.fun) - 34803
 
 > docsify 文档系统
 
