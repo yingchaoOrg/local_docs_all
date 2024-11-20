@@ -2,7 +2,7 @@ services:
   vxe-table-docs: 
     image: ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
     # image: ghcr.libcuda.so/yingchaoorg/local_docs-vxe-table-docs:main
-    container_name: local_docs-vxe-table-docs       
+    container_name: local_docs-vxe-table-docs 
     restart: always
     ports:
       - 34800:80
@@ -20,6 +20,12 @@ services:
     restart: always
     ports:
       - 34801:80
+  local_docs-dcat-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-dcat-docs:master
+    container_name: local_docs-dcat-docs      
+    restart: always
+    ports:
+      - 34803:80
 
 
 

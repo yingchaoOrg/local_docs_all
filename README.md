@@ -6,6 +6,8 @@
 
 [laravel-admin-docs-cn](http://laravel-admin-docs-cn.docs.xiaobei.fun) - 34802
 
+> docsify 文档系统
+
 ### Docker 相关操作
 
 ```bash
