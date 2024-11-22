@@ -27,7 +27,7 @@ services:
     ports:
       - 34803:80
   local_docs-hyperf-docs: 
-    image: ghcr.io/yingchaoorg/local_docs-hyperf:master
+    image: ghcr.io/yingchaoorg/local_docs-hyperf-docs:master
     container_name: local_docs-hyperf-docs
     restart: always
     ports:
