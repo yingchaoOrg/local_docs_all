@@ -1,7 +1,12 @@
 services:
+  local-docs: 
+    image: ghcr.io/yingchaoorg/local_docs_all:main
+    container_name: local_docs-local-docs
+    restart: always
+    ports:
+      - 34899:80
   vxe-table-docs: 
     image: ghcr.io/yingchaoorg/local_docs-vxe-table-docs:main
-    # image: ghcr.libcuda.so/yingchaoorg/local_docs-vxe-table-docs:main
     container_name: local_docs-vxe-table-docs
     restart: always
     ports:
@@ -32,6 +37,12 @@ services:
     restart: always
     ports:
       - 34805:80
+  local_docs-v2-cn-vue-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-v2.cn.vuejs.org:master
+    container_name: local_docs-v2.cn.vuejs.org
+    restart: always
+    ports:
+      - 34806:80
 
 
 
