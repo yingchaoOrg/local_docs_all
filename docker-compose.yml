@@ -43,6 +43,11 @@ services:
     restart: always
     ports:
       - 34806:80
-
+  local_docs-v1-cn-vuejs-org: 
+    image: ghcr.io/yingchaoorg/local_docs-v1.cn.vuejs.org:master
+    container_name: local_docs-v1-cn-vuejs-org
+    restart: always
+    ports:
+      - 34807:80
 
 
