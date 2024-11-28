@@ -11,6 +11,8 @@
 * [hyperf-docs](https://hyperf-docs.docs.yingchao.fun/3.1/) - 34805
 * [vue-cn-v2-docs](https://cn-vue-v2.docs.yingchao.fun/) - 34806
 * [vue-cn-v1-docs](https://cn-vue-v1.docs.yingchao.fun/) - 34807
+* [laravel-9.0-cn](https://laravel-9.0-cn.docs.yingchao.fun/) - 34808
+* [laravel-10.x-cn](https://laravel-10.x-cn.docs.yingchao.fun/) - 34809
 
 > docsify 文档系统
 

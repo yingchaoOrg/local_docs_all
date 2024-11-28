@@ -55,5 +55,10 @@ services:
     restart: always
     ports:
       - 34808:80
-
+  local_docs-laravel-10.x-cn-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-laravel-cn-docs:10.x
+    container_name: local_docs-laravel-10.x-cn-docs
+    restart: always
+    ports:
+      - 34809:80
 
