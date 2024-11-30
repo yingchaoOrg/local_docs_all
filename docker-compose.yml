@@ -61,4 +61,15 @@ services:
     restart: always
     ports:
       - 34809:80
-
+  local_docs-swoole-60-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-swoole-docs:main
+    container_name: local_docs-swoole-60-docs
+    restart: always
+    ports:
+      - 34810:80
+  local_docs-swoole-51-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-swoole-docs:v5.1.x
+    container_name: local_docs-swoole-51-docs
+    restart: always
+    ports:
+      - 34811:80
