@@ -73,3 +73,9 @@ services:
     restart: always
     ports:
       - 34811:80
+  local_docs-frp-doc: 
+    image: ghcr.io/yingchaoorg/local_docs-frp-doc:master
+    container_name: local_docs-frp-docs
+    restart: always
+    ports:
+      - 34812:80
