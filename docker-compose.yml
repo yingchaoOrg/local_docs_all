@@ -73,3 +73,9 @@ services:
     restart: always
     ports:
       - 34811:80
+  local_docs-amis-36-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-amis-docs:3.6.0
+    container_name: local_docs-amis-36-docs
+    restart: always
+    ports:
+      - 34812:80
