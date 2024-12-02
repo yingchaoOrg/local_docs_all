@@ -18,6 +18,7 @@
 * [frp-docs](https://frp-docs.docs.yingchao.fun/) - 34812
 * [amis-3.6.x](https://amis-36.docs.yingchao.fun/) - 34813
 * [amis-6.x](https://amis-6x.docs.yingchao.fun/) - 34814
+* [amis-docs](https://amis-docs.docs.yingchao.fun/) - 34814
 
 > docsify 文档系统
 
