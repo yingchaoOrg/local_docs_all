@@ -15,7 +15,9 @@
 * [laravel-10.x-cn](https://laravel-10.x-cn.docs.yingchao.fun/) - 34809
 * [swoole-v6.0.x](https://swoole-60.docs.yingchao.fun/) - 34810
 * [swoole-v5.1.x](https://swoole-51.docs.yingchao.fun/) - 34811
-* [amis-3.6.x](https://amis-36.docs.yingchao.fun/) - 34812
+* [frp-docs](https://frp-docs.docs.yingchao.fun/) - 34812
+* [amis-3.6.x](https://amis-36.docs.yingchao.fun/) - 34813
+* [amis-6.x](https://amis-6x.docs.yingchao.fun/) - 34814
 
 > docsify 文档系统
 

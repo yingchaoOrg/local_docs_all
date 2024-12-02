@@ -73,15 +73,21 @@ services:
     restart: always
     ports:
       - 34811:80
-  local_docs-amis-36-docs: 
-    image: ghcr.io/yingchaoorg/local_docs-amis-docs:3.6.0
-    container_name: local_docs-amis-36-docs
-    restart: always
-    ports:
-      - 34812:80
   local_docs-frp-doc: 
     image: ghcr.io/yingchaoorg/local_docs-frp-doc:master
     container_name: local_docs-frp-docs
     restart: always
     ports:
       - 34812:80
+  local_docs-amis-36-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-amis-docs:3.6.0
+    container_name: local_docs-amis-36-docs
+    restart: always
+    ports:
+      - 34813:80
+  local_docs-amis-6x-docs: 
+    image: ghcr.io/yingchaoorg/local_docs-amis-docs:6.0
+    container_name: local_docs-amis-6x-docs
+    restart: always
+    ports:
+      - 34814:80
