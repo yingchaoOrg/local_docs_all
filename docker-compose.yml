@@ -86,7 +86,7 @@ services:
     ports:
       - 34813:80
   local_docs-amis-6x-docs: 
-    image: ghcr.io/yingchaoorg/local_docs-amis-docs:6.0
+    image: ghcr.io/yingchaoorg/local_docs-amis-docs:master
     container_name: local_docs-amis-6x-docs
     restart: always
     ports:
